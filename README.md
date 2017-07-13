@@ -41,3 +41,13 @@ python upload_tempfile.py filename
 ## changelog
 2017年7月13日01:14:08
 > 修改了以前使用win32弹窗的方式提醒上传完毕，采用更友好的win10toast， 未测试在win10之外的系统上工作如何
+
+
+2017年7月13日20:03:56
+v2ex上偶然看到一篇作者自己发的[帖子](https://www.v2ex.com/t/374418), 期间表达了对借用IPic的名字的软件比较介意，于是询问一番。
+
+![](http://oqyjccf1n.bkt.clouddn.com/20170713-200309.png)
+
+鉴于作者对ipic这个软件比较重视，对我这个 **ipic-win** 的名字有点介意， 于是我修改了软件名字为 **pic2cloud-win**，说是修改其实就是改了下仓库名字，我本来就没打算给这个小程序名字的..23333
+
+
