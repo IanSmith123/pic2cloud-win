@@ -13,10 +13,14 @@ https://sourceforge.net/projects/pywin32/files/pywin32/Build%20217/
 
 2. 将你的七牛云账户的token填到对应的位置, 修改bucket的名字
 
-3. 任意找一个截屏工具， 自带的`snippingtools`或者qq之类的，截屏。 运行该程序，该程序会自动将文件保存到七牛云，然后将链接放到剪切板， 粘贴即可
+3. 将文件目录内的`bat`文件右键发送到桌面快捷方式，然后设置运行方式为最小化，同时设置快捷键
+![](http://oss2u5ogf.bkt.clouddn.com/setting-shotcut.gif)
+4. 任意找一个截屏工具， 自带的`snippingtools`或者qq之类的，截屏。 运行该程序，该程序会自动将文件保存到七牛云，然后将链接放到剪切板， 粘贴即可
+![](http://oss2u5ogf.bkt.clouddn.com/upload-to-cloud.gif)
 
-4. 修改一下bat文件，（我没写过win的批处理..我提供的文件不是很优雅)，然后右键发送到桌面快捷方式，接着在桌面右键该快捷方式的属性，添加快捷键
-![](http://oqyjccf1n.bkt.clouddn.com/20170713-005904.png)
+
+
+
 
 
 
@@ -40,16 +44,5 @@ python upload_tempfile.py filename
 ## changelog
 #### 2017年7月13日01:14:08
 修改了以前使用win32弹窗的方式提醒上传完毕，采用更友好的win10toast， 未测试在win10之外的系统上工作如何
-
-
-#### 2017年7月13日20:03:56
-v2ex上偶然看到一篇作者自己发的[帖子](https://www.v2ex.com/t/374418), 期间表达了对借用IPic的名字的软件比较介意。
-![](http://oqyjccf1n.bkt.clouddn.com/20170713-201431.png)
-
-于是询问一番。
-
-![](http://oqyjccf1n.bkt.clouddn.com/20170713-200309.png)
-
-鉴于ipic作者对我这个 **ipic-win** 的名字有点介意， 于是我修改了软件名字为 **pic2cloud-win**，说是修改其实就是改了下仓库名字，我本来就没打算给这个小程序名字的 :)
 
 
