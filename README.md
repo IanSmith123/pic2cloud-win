@@ -3,7 +3,7 @@
 ## 0x01 使用
 1. 搭建环境
 ```bash
-$ pip3 install qiniu, win10toast, pillow,pywin32
+$ pip3 install qiniu win10toast pillow pywin32
 ```
 2. 将你的七牛云账户的token填到对应的位置, 修改bucket的名字
 
